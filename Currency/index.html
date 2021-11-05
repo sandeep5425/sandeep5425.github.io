@@ -14,7 +14,7 @@
     <div id="app"></div>
 
     <script type="text/babel">
-    const API_KEY = value.key;
+    const API_KEY =  process.env.REACT_APP_API_KEY;
     class Converter extends React.Component {
         constructor(props){
             super(props);
